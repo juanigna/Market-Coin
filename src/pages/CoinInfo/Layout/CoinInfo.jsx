@@ -11,7 +11,7 @@ const CoinInfo = () => {
     <div>
         {loading ? <div><h1>Loading...</h1></div> :  data && <div>
             {
-                <CoinDetail name={data.name} symbol={data.symbol} image={data.image}/>
+                <CoinDetail name={data.name} symbol={data.symbol} image={data.image} totalIssue={data.developer_data}/>
             }    
         </div>}
        
