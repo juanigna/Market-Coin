@@ -18,7 +18,7 @@ const Home = () => {
             {
                  data.map(coin => (
                     <Link to={`/coin/${coin.id}`}>
-                        <Coin key={coin.id} name={coin.name} symbol={coin.symbol} image={coin.image}/>
+                        <Coin key={coin.id} name={coin.name} symbol={coin.symbol} image={coin.image} price={coin.current_price} market_cap={coin.market_cap}/>
                     </Link>
                 ))
             }
