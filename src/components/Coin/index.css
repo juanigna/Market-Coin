@@ -1,0 +1,18 @@
+.coin-container{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between  ;
+    align-items: center;
+    background-color:burlywood;
+    padding: 1em;
+    gap: 1em;
+    border-radius: 10px;
+}
+
+.coin-container h2{
+    text-transform: uppercase;
+}
+
+.coin-img{
+    max-width: 30px;
+}

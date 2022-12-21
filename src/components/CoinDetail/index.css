@@ -1,0 +1,34 @@
+.coin-detail{
+    max-width: 600px;
+    background-color: rgb(224, 179, 56);
+    margin: 1em auto;
+    padding: 1em;
+    border-radius: 18px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: .5em;
+}
+
+.coin-detail button{
+    padding: .5em;
+    border: none;
+    border-radius: 18px;
+    background-color:rgb(225, 128, 63);
+    color: #fff;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+
+.coin-detail span{
+    text-transform: uppercase;
+}
+
+.coin-detail-container{
+    height: 100vh;
+    width: 100%;
+    display: grid;
+    place-content: center;
+}
